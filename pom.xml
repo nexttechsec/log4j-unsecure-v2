@@ -32,7 +32,6 @@
             </exclusions>
         </dependency>
 
-        <!-- TODO: put it back after -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
@@ -59,11 +58,12 @@
 <!--            <version>2.13.2</version>-->
 <!--        </dependency>-->
 
-<!--        <dependency>-->
-<!--            <groupId>com.adobe.xmp</groupId>-->
-<!--            <artifactId>xmpcore</artifactId>-->
-<!--            <version>5.1.2</version>-->
-<!--        </dependency>-->
+        <!-- another dependency with issues -->
+        <dependency>
+            <groupId>com.adobe.xmp</groupId>
+            <artifactId>xmpcore</artifactId>
+            <version>5.1.2</version>
+        </dependency>
 
     </dependencies>
 
